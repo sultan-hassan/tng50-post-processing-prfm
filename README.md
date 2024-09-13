@@ -11,7 +11,7 @@ This repository contains all local ISM property maps generated from TNG50 simula
 
 # Running the post-processing code
 
-To tun the code:
+To run the code:
 
       $ python generate_ism_maps.py snap
 
@@ -19,3 +19,9 @@ snap is the snapshot id, which comes from https://www.tng-project.org/, see Snap
 
 The code is very efficient and uses multiprocessing to distribute computing to different available cores. As a reference, the code processes 10397 and 21155 subhalos using 48 cpus in 6.6 mins and 14.6 mins at z=0 and z=2, respectively.
 
+# Output file structure (data directory)
+
+| Quantity    | Description |
+| ----------- | ----------- |
+| subhalo_id  | Subhalo ID from TNG50 subhalo catalogs |
+| Sigma_g | Surface density of gas in units of $M_{\odot}/kpc^{3}$|
