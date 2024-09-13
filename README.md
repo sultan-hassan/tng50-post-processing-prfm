@@ -6,9 +6,8 @@ This repository contains all local ISM property maps generated from TNG50 simula
   - **generate_ism_maps.py** Fast post-processing code using multiprocessing to generate various ISM property maps of average/midplane and projected densities within 1 kpc $\times$ 1 kpc columns of all selected galaxies from TNG50, matching the required resolution of TIGRESS simulations. The code can be used to generate these maps from any full snapshot of the TNG simulations (not limited to TNG50).
   - **utils.py** Includes utility functions used within the post-processing code.
   - **requirements.txt** Lists all dependencies required to run the code successfully. This file is generated using pipreqs (https://github.com/bndr/pipreqs).
-  - **data** Contains the output of the post-processing code from TNG50 at z=0 and z=2, stored as pickled pandas objects. 
   - **examples** Contains a Jupyter notebook (read_data_and_plot.ipynb) and some helper functions (user_functions.py) to demonstrate how the data can be read/used, along with clear steps to reproduce most of the plots in Hassan et al. (2024).
-  - **data link** [click here to download](https://drive.google.com/drive/folders/1dsk6z7ugOJEedwfW6uhaDi8YYGvfPEF9?usp=sharing)
+  - **data link** Contains the output of the post-processing code from TNG50 at z=0 and z=2, stored as pickled pandas objects. [Click here to download](https://drive.google.com/drive/folders/1dsk6z7ugOJEedwfW6uhaDi8YYGvfPEF9?usp=sharing)
 
 
 
