@@ -15,5 +15,5 @@ To tun the code:
 
       $ python generate_ism_maps.py snap
 
-snap is the snapshot id, which comes from https://www.tng-project.org/, see Snap tables, e.g. use snap=99 for z=0.
+snap is the snapshot id, which comes from https://www.tng-project.org/, see Snap tables, e.g. use snap=99 for z=0. The only change inside the code that is require is to provide the full path for TNG simulation directory e.g. basePath='/Illustris_IllustrisTNG_public_data_release/L35n2160TNG/output/'. The code is flexible to allow the user to change any parameters to any values to generate maps with different pixel size, and different scales to compute the midplane and projected quantities (e.g. simply change values for cell_size, int_scale, mid_scale). The code automatically applies the sample selection criteria, which can also be changed by modifying *mask_sample* to any conditions.
 
