@@ -7,4 +7,5 @@ This repository contains all local ISM property maps generated from TNG50 simula
   - **utils.py** includes some utility functions that are used within the prost-processing code.  
   - **requirements.txt** includes all dependencies required to run the code sucessfully. This file is generated using pipreqs (https://github.com/bndr/pipreqs).
   - **data** contains the output of the post-processing code from TNG50 at z=0 and z-2.
+  - **examples** contains a jupyter notebook (read_data_and_plot.ipynb) and some helper functions (user_functions.py) to show examples of the data can be used and provide clear steps to reproduce most of the plots in Hassan+2024.
 
