@@ -1,6 +1,6 @@
 # ISM property maps data release from TNG50
 
-This repository contains all local ISM property maps generated from TNG50 simulations (https://www.tng-project.org/) for making predictions in post-processing using the Pressure-Regulated, Feedback-Modulated Star Formation Model (PRFM). For more details on the PRFM model, see Ostriker & Kim (https://arxiv.org/abs/2206.00681). A full description of the equations, methods, and implementation guide can be found in Hassan et al. (2024).
+This repository contains all local ISM property maps generated from TNG50 simulations (https://www.tng-project.org/) for making predictions in post-processing using the Pressure-Regulated, Feedback-Modulated Star Formation Model (PRFM). For more details on the PRFM model (see Ostriker & Kim 2022  https://arxiv.org/abs/2206.00681). A full description of the equations, methods, and implementation guide can be found in Hassan et al. (2024).
 
 # Repository Structure
   - **generate_ism_maps.py** Fast post-processing code using multiprocessing to generate various ISM property maps of average/midplane and projected densities within 1 kpc $\times$ 1 kpc columns of all selected galaxies from TNG50, matching the required resolution of TIGRESS simulations. The code can be used to generate these maps from any full snapshot of the TNG simulations (not limited to TNG50).
