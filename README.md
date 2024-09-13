@@ -1,4 +1,4 @@
-# ISM property maps Data Release from TNG50
+# ISM property maps data release from TNG50
 
 This repository contains all local ISM property maps generated from TNG50 simulations (https://www.tng-project.org/) to generate predictions in post-processing for the Pressure-Regulated, Feedback-Modulated Star Formation Model (PRFM), see Ostriker & Kim, https://arxiv.org/abs/2206.00681. For the full description of the equations/methods/implementation guide, please see Hassan+2024. 
 
@@ -21,7 +21,19 @@ The code is very efficient and uses multiprocessing to distribute computing to d
 
 # Output file structure (data directory)
 
-| Quantity    | Description |
+| Map name    | Description |
 | ----------- | ----------- |
-| subhalo_id  | Subhalo ID from TNG50 subhalo catalogs |
-| Sigma_g | Surface density of gas in units of $M_{\odot}/kpc^{3}$|
+| subhalo_id  | subhalo ID from TNG50 subhalo catalogs |
+| Sigma_g | surface density of gas in units of $M_{\odot}/kpc^{2}$|
+| rho_g | volumetric density of gas in units of $M_{\odot}/kpc^{3}$|
+| H_g | measured scale height of gas in units of $kpc$ | 
+|n_H ||
+|Z_g||
+|P_th||
+|P_mag||
+|P_turb||
+|Sigma_*||
+|rho_*||
+|H_*||
+|Sigma_SFR||
+|rho_dm||
