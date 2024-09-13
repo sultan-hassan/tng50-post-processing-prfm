@@ -20,20 +20,21 @@ snap is the snapshot id, which comes from https://www.tng-project.org/, see Snap
 The code is very efficient and uses multiprocessing to distribute computing to different available cores. As a reference, the code processes 10397 and 21155 subhalos using 48 cpus in 6.6 mins and 14.6 mins at z=0 and z=2, respectively.
 
 # Output file structure (data directory)
+Each pickled pandas objects ("/data/all_data_z0.pkl" or "/data/all_data_z2.pkl") contains the following maps (see examples of how to read).
 
-| Map name    | Description |
+| Quantity   | Description |
 | ----------- | ----------- |
-| subhalo_id  | subhalo ID from TNG50 subhalo catalogs |
-| Sigma_g | surface density of gas in units of $M_{\odot}/kpc^{2}$|
-| rho_g | volumetric density of gas in units of $M_{\odot}/kpc^{3}$|
-| H_g | measured scale height of gas in units of $kpc$ | 
-|n_H ||
-|Z_g||
-|P_th||
-|P_mag||
-|P_turb||
-|Sigma_*||
-|rho_*||
-|H_*||
-|Sigma_SFR||
-|rho_dm||
+| subhalo_id  | Subhalo ID from TNG50 subhalo catalogs |
+| Sigma_g | Surface density of gas in $M_{\odot}/kpc^{2}$|
+| rho_g | Volumetric density of gas in $M_{\odot}/kpc^{3}$|
+| H_g | Measured scale height of gas in $kpc$ | 
+|n_H | Hydrogen number density in $cm^{-3}$|
+|Z_g| mass weighted averagred metallicity in solar units|
+|P_th| Thermal pressure in $K/cm^{3}$|
+|P_mag|Magentic pressure in $K/cm^{3}$|
+|P_turb| Turbulent pressure in $K/cm^{3}$ |
+|Sigma_*| Surface density of stars in $M_{\odot}/kpc^{2}$ |
+|rho_*|  Volumetric density of star in $M_{\odot}/kpc^{3}$|
+|H_*| Stellar scale height in $kpc$|
+|Sigma_SFR| Surface density of star formation in in $M_{\odot}/yr/kpc^{2}$|
+|rho_dm| Volumetric density of dark matter in $M_{\odot}/kpc^{3}$|
