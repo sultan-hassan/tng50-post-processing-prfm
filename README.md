@@ -24,7 +24,7 @@ The code is highly efficient and utilizes multiprocessing to distribute computat
 # Output file structure (data directory)
 Each pickled pandas object (e.g., /data/all_data_z0.pkl or /data/all_data_z2.pkl) contains the following maps (see examples for how to read them)
 
-| Column   | Description |
+| Column | Description |
 | ----------- | ----------- |
 | subhalo_id  | Subhalo ID from TNG50 subhalo catalogs |
 | Sigma_g | Surface density of gas in $M_{\odot}/kpc^{2}$|
