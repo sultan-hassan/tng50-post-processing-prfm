@@ -13,7 +13,7 @@ This repository contains all local ISM property maps generated from TNG50 simula
 
 To tun the code:
 
-        python generate_ism_maps.py snap
+      $ python generate_ism_maps.py snap
 
 snap is the snapshot id, which comes from https://www.tng-project.org/, see Snap tables, e.g. use snap=99 for z=0.
 
