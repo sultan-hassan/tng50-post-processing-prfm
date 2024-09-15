@@ -21,7 +21,7 @@ snap refers to the snapshot ID, which can be found at https://www.tng-project.or
 
 The code is highly efficient and utilizes multiprocessing to distribute computations across available cores. As a reference, the code processes 10,397 and 21,155 subhalos using 48 CPUs in 6.6 minutes and 14.6 minutes at z=0 and z=2, respectively.
 
-# Output file structure (data directory)
+# Output file structure (data directory - after download using the link above)
 Each pickled pandas object (e.g., /data/all_data_z0.pkl or /data/all_data_z2.pkl) contains the following maps (see examples for how to read them)
 
 | Column | Description |
