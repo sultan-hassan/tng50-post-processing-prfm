@@ -31,7 +31,7 @@ After downloading the data using the link above, each pickled pandas object (e.g
 | rho_g | Volumetric density of gas in $M_{\odot}/kpc^{3}$|
 | H_g | Measured scale height of gas in $kpc$ | 
 |n_H | Hydrogen number density in $cm^{-3}$|
-|Z_g| mass weighted averagred metallicity in solar units|
+|Z_g| Mass weighted averagred metallicity in solar units|
 |P_th| Thermal pressure in $K/cm^{3}$|
 |P_mag|Magentic pressure in $K/cm^{3}$|
 |P_turb| Turbulent pressure in $K/cm^{3}$ |
