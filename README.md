@@ -1,14 +1,14 @@
 # ISM property maps data release from TNG50
 
-This repository contains all local ISM property maps generated from TNG50 simulations (https://www.tng-project.org/) for making predictions in post-processing using the Pressure-Regulated, Feedback-Modulated Star Formation Model (PRFM). For more details on the PRFM model (see Ostriker & Kim 2022  https://arxiv.org/abs/2206.00681). A full description of the equations, methods, and implementation guide can be found in Hassan et al. (2024).
+This repository contains all local ISM property maps generated from TNG50 simulations (https://www.tng-project.org/) for making predictions in post-processing using the Pressure-Regulated, Feedback-Modulated Star Formation Model (PRFM). For more details on the PRFM model (see Ostriker & Kim 2022  https://arxiv.org/abs/2206.00681). A full description of the equations, methods, and implementation guide can be found in Hassan et al. 2024 (https://arxiv.org/abs/2409.09121).
 
 # Repository Structure
   - **generate_ism_maps.py** Fast post-processing code using multiprocessing to generate various ISM property maps of average/midplane and projected densities within 1 kpc $\times$ 1 kpc columns of all selected galaxies from TNG50, matching the required resolution of TIGRESS simulations. The code can be used to generate these maps from any full snapshot of the TNG simulations (not limited to TNG50).
   - **utils.py** Includes utility functions used within the post-processing code.
   - **requirements.txt** Lists all dependencies required to run the code successfully. This file is generated using pipreqs (https://github.com/bndr/pipreqs).
-  - **examples** Contains a Jupyter notebook (read_data_and_plot.ipynb) and some helper functions (user_functions.py) to demonstrate how the data can be read/used, along with clear steps to reproduce most of the plots in Hassan et al. (2024).
+  - **examples** Contains a Jupyter notebook (read_data_and_plot.ipynb) and some helper functions (user_functions.py) to demonstrate how the data can be read/used, along with clear steps to reproduce most of the plots in Hassan et al. 2024 (https://arxiv.org/abs/2409.09121).
 
-# Download data
+# Data download
 The output of the post-processing code (**generate_ism_maps.py**) from TNG50 simulation at z=0 and z=2, stored as pickled pandas objects. [Click here to download](https://drive.google.com/drive/folders/1dsk6z7ugOJEedwfW6uhaDi8YYGvfPEF9?usp=sharing)
 
 
